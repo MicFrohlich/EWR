@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'waterandelectricity.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'water_and_electricity',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'wande',
+        'PASSWORD': 'adminadmin',
         'HOST': 'localhost',
         'PORT': '5432',
     }
