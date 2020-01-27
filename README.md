@@ -6,8 +6,10 @@
 2. Create Virtual Env and Activate
 
 3. Install Requirements
-	
-	pip install -r requirements/base.txt
+
+	- Make sure Postgres is Running and installed
+
+	- pip install -r requirements/base.txt
 
 4. Migrate
 
